@@ -1,0 +1,65 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.container {
+    width: 30%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; /* White background for cards */
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Lighter shadow */
+}
+
+img {
+    border-radius: 50%;
+    width: 125px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 93%;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ced4da; /* Light gray border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Lighter shadow */
+}
+
+button {
+    width: 100%;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text for buttons */
+    border: none;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+a {
+    color: #007bff; /* Bootstrap primary color for links */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+

@@ -1,0 +1,75 @@
+.dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar .heads {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sidebar img {
+  width: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  margin: 15px 0;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.menu a.active,
+.menu a:hover {
+  background-color: #007bff;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between; /* Adjusted to utilize space */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa; /* Light background */
+  }
+  
+  .user-profile {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    font-weight: 600; 
+    font-family: Arial, sans-serif; 
+    color: #333;
+  }
+  
+  .user-profile img {
+    border-radius: 50%; 
+    object-fit: cover; 
+  }
+  
